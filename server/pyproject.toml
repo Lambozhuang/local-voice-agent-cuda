@@ -1,0 +1,20 @@
+[project]
+name = "linux-cuda-local-voice-agents-server"
+version = "0.1.0"
+description = "Local voice agents server for Linux with NVIDIA CUDA"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pip",
+    "python-dotenv",
+    "fastapi[all]",
+    "uvicorn",
+    "opencv-python",
+    "torch",
+    "faster-whisper",
+    "kokoro",
+    "pipecat-ai[openai,deepgram,rime,silero,whisper]>=0.0.81",
+    "pipecat-ai-small-webrtc-prebuilt",
+    "aiortc",
+    "nltk",
+]

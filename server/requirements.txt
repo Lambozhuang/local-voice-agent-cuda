@@ -1,0 +1,10 @@
+python-dotenv
+fastapi[all]
+uvicorn
+opencv-python
+torch
+faster-whisper
+kokoro
+pipecat-ai[openai,deepgram,rime,silero,whisper]>=0.0.80
+aiortc
+nltk
